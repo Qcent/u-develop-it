@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const db = require('../../db/connection');
-/*
+
 // Get all parties
 router.get('/parties', (req, res) => {
     const sql = `SELECT * FROM parties`;
@@ -55,6 +55,6 @@ router.delete('/party/:id', (req, res) => {
         }
     });
 });
-*/
+
 
 module.exports = router;
