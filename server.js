@@ -25,7 +25,3 @@ db.connect(err => {
         console.log(`Server running on port ${PORT}`);
     });
 });
-
-db.query(`SELECT * FROM candidates`, (err, rows) => {
-    console.log(rows);
-});
